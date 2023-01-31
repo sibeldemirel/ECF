@@ -13,13 +13,13 @@ order.addEventListener('click', () =>
 
 {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/_GuOjXYl5ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
 
-// let button = document.querySelector('.lien');
-// let image = document.querySelector('.rightImage');
-// let video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/_GuOjXYl5ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+let button = document.querySelector('.lien');
+let image = document.querySelector('.rightImage');
+let video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/_GuOjXYl5ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
 
-// console.log(image)
-// console.log(button)
+console.log(image)
+console.log(button)
 
-// button.addEventListener('click', () => 
-//     image.innerHTML = {video}
-// )
+button.addEventListener('click', () => 
+    image.innerHTML = video
+)
