@@ -218,3 +218,20 @@ h1{
 .title3{
     margin-left: 10px;
 }
+
+.allSketches{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sketch{
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;    
+}
+
+.round{
+    background-color: rgb(249, 247, 247);
+    border-radius: 50%;
+    width: 70px;
+}
