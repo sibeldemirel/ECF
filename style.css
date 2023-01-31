@@ -204,7 +204,12 @@ h1{
     margin-left: 50px;
 }
 
-.sec-2{
+.green{
+    color: green;
+}
+/* not working */
+
+.sec2{
     margin-top: 50px;
     align-items: flex-start;
 }
