@@ -97,4 +97,22 @@
         left: -290px;
         fill: #5614db4a;
     }
+
+    .detail2{
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .since{
+        margin-left: 46px;
+        scale: 1.4;
+    }
+
+    .title2{
+        margin-left: 42px;
+    }
+
+    .title22{
+        margin-left: 280px;
+    }
 }
