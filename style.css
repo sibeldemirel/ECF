@@ -191,6 +191,10 @@ h1{
     margin: 0;
 }
 
+.detail2{
+    padding-left: 40px;
+}
+
 .dots{
     position: relative;
     z-index: -3;
