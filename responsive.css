@@ -1,13 +1,13 @@
 @media(max-width:768px){
     *{
         max-width: 768px;
-        padding-left: 5px;
-        padding-right: 5px;
+        
 
     }
 
     header{
         width: 90%;
+        padding: 10px;
     }
 
     .list{
@@ -26,18 +26,45 @@
 
     .left-detail{
         text-align: center;
+        padding: 50px;
     }
 
     .highlight{
-        margin-left: 200px;
+        margin-left: 155px;
     }
 
     .rightImage{
-        margin-top: 20px;
         width: 100%;
     }
 
     main{
         padding: 0;
+    }
+
+    .presentation{
+        width: 680px;
+        height: 450px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .m-left{
+        margin: 0;
+    }
+
+    img{
+        margin-left: 0;
+    }
+
+    .dots{
+        position: relative;
+        z-index: -3;
+        bottom: 72px;
+        left: 615px;
+        fill: #5614db4a;
+    }
+
+    .detail{
+        padding: 20px;
     }
 }

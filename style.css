@@ -185,7 +185,7 @@ h1{
     position: relative;
     z-index: -3;
     bottom: 72px;
-    left: 430px;
+    left: 390px;
     fill: #5614db4a;
 }
 
@@ -206,9 +206,9 @@ h1{
 
 }
 
-.m-left{
+/* .m-left{
     margin-left: 50px;
-}
+} */
 
 .green{
     color: green;
