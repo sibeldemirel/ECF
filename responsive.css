@@ -81,6 +81,20 @@
     .sec2{
         display: flex;
         flex-direction: column;
-        margin-top: 90px;
+        margin-top: 60px;
+    }
+    
+    .image2{
+        margin-left: 150px;
+        width: 65%;
+        height: 65%;
+    }
+
+    .dots-2{
+        position: relative;
+        z-index: -3;
+        bottom: -49px;
+        left: -290px;
+        fill: #5614db4a;
     }
 }
