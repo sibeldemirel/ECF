@@ -58,9 +58,10 @@
     .dots{
         position: relative;
         z-index: -3;
-        bottom: 72px;
-        left: 615px;
+        bottom: 88px;
+        left: 595px;
         fill: #5614db4a;
+        height:120px !important;
     }
 
     .detail{
@@ -75,5 +76,11 @@
     .video{
         width: 680px;
         height: 450px;
+    }
+
+    .sec2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 90px;
     }
 }
