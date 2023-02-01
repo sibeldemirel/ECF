@@ -6,7 +6,6 @@
     }
 
     header{
-        width: 90%;
         padding: 10px;
     }
 
@@ -73,5 +72,8 @@
         margin-left: 10px;
     }
 
-    
+    .video{
+        width: 680px;
+        height: 450px;
+    }
 }
