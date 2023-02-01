@@ -323,10 +323,12 @@ footer{
 }
 
 .footerTitle{
+    padding: 0;
     color: #3f526d;
     font-size: 15px;
     font-family: 'Inter@800', sans-serif;
     font-weight: 800;
+    margin-left: 0;
 
 }
 
@@ -373,9 +375,11 @@ hr{
     color: white;
     border: none;
     padding: 10px;
+    margin: 0;
 }
 
 .footerInput{
+    margin: 0;
     padding: 10px;
     border: radius 10px;
     background-color: #e0e3e8;
@@ -385,16 +389,3 @@ hr{
 .footerInput:hover{
     border: 2px solid #6415ff;
 }
-
-
-.footerTitle{
-    font-family: 'Inter@500', sans-serif;
-    margin-left: 10px;
-    font-size: 18px;
-    font-weight: 800;
-    color: #3f526d;
-}
-
-/* footer:last-child{
-    width: 30%;
-} */
