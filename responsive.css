@@ -94,13 +94,23 @@
         position: relative;
         z-index: -3;
         bottom: -49px;
-        left: -290px;
+        left: -293px;
         fill: #5614db4a;
     }
 
     .detail2{
         margin-top: 80px;
         text-align: center;
+    }
+
+
+    .detail22{
+        width: 70%;
+        margin-left: 100px;
+    }
+
+    #addYear{
+        margin-left: 60px;
     }
 
     .since{
@@ -114,5 +124,23 @@
 
     .title22{
         margin-left: 280px;
+    }
+
+    .sec3{
+        margin-top: 120px;
+    }
+
+    .title3{
+        margin-bottom: 15px;
+        scale: 1.2;
+    }
+
+    .hight{
+        margin-left: 35px;
+    }
+
+    .allSketches{
+        display: flex;
+        flex-direction: column;
     }
 }
