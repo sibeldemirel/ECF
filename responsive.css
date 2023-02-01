@@ -237,8 +237,12 @@
     .newsletter{
         margin: auto;
         text-align: center;
+        width: 500px;
     }
 
+    .mail{
+        margin-left: 130px;
+    }
 
     hr{
         width: 700px;
