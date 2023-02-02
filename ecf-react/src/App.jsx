@@ -1,10 +1,13 @@
+import { Outlet } from 'react-router-dom';
 import './App.css';
-import Menu from './Components/Menu';
+import Header from './Components/Header';
 
 function App() {
   return (
-    <div>
-      <Menu/>
+    <div className='container'>
+      <Header/>
+
+      <Outlet/>
     </div>
 
   );
