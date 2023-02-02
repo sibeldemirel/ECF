@@ -32,7 +32,7 @@ function Menu() {
             )}
 
             {selectedItem && <div className="single container">
-                <p>Vous avez commandé le reaps {selectedItem.title}</p>
+                <p>Vous avez commandé le repas {selectedItem.title}</p>
                 <img src={selectedItem.imageSrc} alt="meal" />
             </div>}
 
