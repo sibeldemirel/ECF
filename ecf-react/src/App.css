@@ -80,6 +80,7 @@ article {
   width: 235px;
   height: 350px;
   border-radius: 5px;
+  position: relative;
 }
 
 article:hover{
@@ -107,7 +108,34 @@ article img {
   padding: 15px ;
 }
 
-.star{
-  width: 10%;
-  background-color: white;
+.rating{
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.review{
+  color: rgb(154, 153, 153);
+  font-size: 12px;
+  font-weight: bold;
+
+}
+
+.grid > article > .star {
+  position: absolute;
+  background-color: #fff;
+  z-index: 3;
+  align-items: center;
+  display: inline-flex;
+  padding: 5px 10px;
+  border-radius: 30px;
+  top: 50%;
+}
+.star svg {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  color: rgb(255, 213, 0);
+}
+.star span:last-child{
+  margin-left: 5px;
 }
