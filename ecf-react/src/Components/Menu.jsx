@@ -24,7 +24,9 @@ function Menu() {
                     <span className="review">({meal.reviews})</span>
                     
                     </div>
+                    <button className="btn">Commander</button>
 
+                    <div></div>
                 </article>
             )}
 
