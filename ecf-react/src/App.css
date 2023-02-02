@@ -13,6 +13,8 @@ body{
 }
 
 .header{
+  margin-top: 80px;
+  margin-bottom: 10px;
   padding: 20px 0;
   align-items: center;
   justify-content: space-between;
@@ -73,6 +75,7 @@ a:hover{
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  margin-bottom: 80px;
 }
 
 article {
@@ -99,7 +102,8 @@ article img {
 }
 
 .content{
-  font-size: 11px;
+  font-size: 12px;
+  font-weight: bold;
   padding: 0 15px ;
   color: rgb(155, 152, 152);
 }
@@ -127,6 +131,7 @@ article img {
   align-items: center;
   display: inline-flex;
   padding: 5px 10px;
+  margin-left: 10px;
   border-radius: 30px;
   top: 50%;
 }
@@ -134,7 +139,7 @@ article img {
   width: 18px;
   height: 18px;
   margin-right: 5px;
-  color: rgb(255, 213, 0);
+  color:gold;
 }
 .star span:last-child{
   margin-left: 5px;
