@@ -28,11 +28,14 @@ ul{
 
 ul > li{
   display: inline-block;
-  padding: 10px;
+  padding: 5px;
+  color: rgb(237, 235, 235);
+  margin-left: 5px;
+  border-radius: 5px;
 }
 
 ul li:hover{
-  background-color: rgb(110, 43, 226);
+  background-color: #6415ff;
 }
 
 ul li a{
@@ -40,21 +43,12 @@ ul li a{
   color: grey;
 }
 
-ul li:hover{
-  text-decoration: none;
-  color: rgb(237, 235, 235);
-  background-color: rgb(110, 43, 226);
-  margin-left: 5px;
-  border-radius: 5px;
-  padding: 8px;
-}
-
-a:hover{
+.menu a:hover{
   color: rgb(237, 235, 235);
 }
 
 .highlight{
-  background-color: rgb(110, 43, 226);
+  background-color: #6415ff;
   color: white;
   transform: skew(-8deg);
   margin-left: 10px;
@@ -89,7 +83,7 @@ article {
 .btn{
   position: absolute;
   padding: 15px;
-  background-color: rgb(110, 43, 226);
+  background-color: #6415ff;
   border-radius: 5px;
   border: none;
   color: #fff;
@@ -103,6 +97,7 @@ article {
 
 article:hover .btn{
   display: block;
+  filter: none !important;
 }
 
 article:hover{
@@ -116,8 +111,17 @@ article img {
   border-radius: 5px 5px 0 0;
 }
 
+article img:hover{
+  filter: opacity(80%);
+
+}
+
 .mealTitle{
   padding: 15px;
+}
+
+.mealTitle:hover{
+  color: #6415ff;
 }
 
 .content{
