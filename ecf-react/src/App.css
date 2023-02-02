@@ -1,7 +1,44 @@
+body{
+  font-family: 'Inter';
+}
+
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.flex{
+  display: flex;
+}
+
+.header{
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul{
+  background-color: rgb(237, 235, 235);
+}
+
+ul > li{
+  display: inline-block;
+  padding: 10px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: grey;
+
+}
+
+.highlight{
+  background-color: rgb(110, 43, 226);
+  color: white;
+  transform: skew(-8deg);
+  margin-left: 10px;
+  padding: 0 5px;
 }
 
 .container{

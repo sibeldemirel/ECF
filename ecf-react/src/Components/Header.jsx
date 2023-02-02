@@ -1,8 +1,18 @@
 export default function Header(){
 
     return(
-    <div className="header">
-        <h1>Découvrez notre <span className="highlight">menu.</span></h1>
+    <div className="header flex">
+        <div className="flex">
+            <h1>Découvrez notre</h1><h1 className="highlight"> menu. </h1>
+        </div>
+
+        <div className="menu">
+            <ul>
+                <li><a href="#">Tout</a></li>
+                <li><a href="#">Viandes</a></li>
+                <li><a href="#">Légumes</a></li>
+            </ul>
+        </div>
     </div>
 
     )
