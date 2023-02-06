@@ -3,12 +3,14 @@ import meals from "../meals";
 
 
 function Menu() {
+    // selectedItem est à false, il est caché au début
     let [selectedItem, setSelectedItem] = useState(false);
 
 
     return (
         <div className="grid">
 
+            {/* si le selectedItem n'est pas actif, la grille complète est affichée */}
             {!selectedItem && meals.map((meal, index) =>
 
                 <article key={index} className="card">
@@ -26,11 +28,14 @@ function Menu() {
                         <span className="review">({meal.reviews})</span>
 
                     </div>
+
+                    {/* active le selectedItem */}
                     <button onClick={() => setSelectedItem(meal)}
                         className="btn">Commander</button>
                 </article>
             )}
 
+            {/* affiche les repas un par un, avec la photo correspondante */}
             {selectedItem && <div className="single container">
                 <p>Vous avez commandé le repas {selectedItem.title}</p>
                 <img src={selectedItem.imageSrc} alt="meal" />
@@ -41,3 +46,7 @@ function Menu() {
 }
 
 export default Menu;
+
+
+// ajouter un setTimeout
+// rendre les filtres fonctionnels (all, viandes, légumes)
